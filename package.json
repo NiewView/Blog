@@ -1,0 +1,17 @@
+{
+  "name": "blog-tomeckardt",
+  "version": "1.0.0",
+  "description": "Blog by Tom Eckardt",
+  "repository": "niewview/blog",
+  "private": true,
+  "keywords": [
+    "dev.to",
+    "blog",
+    "articles"
+  ],
+  "author": {
+    "name": "Tom Eckardt",
+    "url": "https://tomeckardt.com"
+  },
+  "license": "MIT"
+}
