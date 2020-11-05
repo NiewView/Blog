@@ -1,24 +1,19 @@
-name: publish
+name: TheActionDev Sync
 on:
   push:
     branches:
-      - master
+      - master # your default branch
 
 jobs:
-  publish:
+  operations:
     runs-on: ubuntu-latest
-    if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
-
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
-      - name: Publish articles on dev.to
-        uses: sinedied/publish-devto@30728bf
+      - name: Sycing Article to dev.to
+        uses: ful1e5/TheActionDev@v2
         with:
-          files_glob: "posts/**/*.de.md"
-          devto_key: ${{ secrets.DEVTO_TOKEN }}
-          github_token: ${{ secrets.GH_TOKEN }}
-          conventional_commits: true
+          api-key: ${{ secrets.DEVTO_TOKEN }} # Store your 'api-key' in Github Secret
+          directory: ./posts # Your article directory
+          ignore: Development.md, Production.md # Markdown file you wan't to ignore. Multple files separated by ,(comma)
