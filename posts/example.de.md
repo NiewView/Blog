@@ -3,7 +3,6 @@ title: Ein etwas anderer Weg zur Farbpalette
 published: true
 description: Extrahiere Farbpalette aus Bildern
 tags: "image, color, palette"
-cover_image: assets/cat.jpg
 canonical_url: null
 id: 2020110501
 ---
