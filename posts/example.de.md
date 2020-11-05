@@ -11,6 +11,8 @@ Wie viele Stunden ich wohl schon auf Unsplash oder ähnlichen Seiten verbracht h
 
 ![Unsplash Screenshot](assets/unsplash.jpeg)
 
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fblog.tomeckardt.com)
+
 Ich bin leider kein so guter Fotograf, tatsächlich bin ich gar keine Fotograf. Das heißt aber nicht, dass ich diese Schönheit nicht erkenne und nutzen möchte.
 Während meiner Arbeit als Frontend Entwickler versuche ich regelmäßig Farbpaletten zu erstellen. Wer schon einmal versucht hat zwei oder drei der 16,777,216‬ Farben zu finden die gut zusammenpassen, die gewollte Nachricht vermitteln und dann noch die entsprechenden Kontraste besitzen, weiß das dies keine einfach Aufgabe ist.
 Warum also nicht die harmonischen Zusammensetzungen dieser Bilder nutzen und aus diesen Farbpaletten generieren? Da ich selbst nur wenig von der Harmonielehre der Farben verstehe und nicht weis, wie diese in den Bildern zusammenwirken, habe ich zunächst recheriert, ob es bereits Projekte gibt, welche dies können. Hierbei bin ich auf diese großartige Bibliothek [Vibrant.js](https://jariz.github.io/vibrant.js/).
