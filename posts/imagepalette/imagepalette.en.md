@@ -4,7 +4,7 @@ published: true
 description: Extract color palette from images
 tags: "image, color, palette"
 canonical_url: null
-id: 2020110501
+id: 2020110701
 ---
 
 I wonder how many hours I have spent on Unsplash or similar sites, looking for images for projects, wallpapers or just to get an overview. But sometimes just for pleasure, the urge to see beautiful, harmonious images. The focus here is rarely on the motive. I am especially enthusiastic about unusual perspectives or messages. The other main factor are contrasts, as they (almost) only occur in nature and can only be captured by very well photographers.
