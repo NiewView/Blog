@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "copyfiles assets/** build/assets"
+    "build": "copyfiles assets/** build"
   },
   "dependencies": {
     "copyfiles": "^2.4.0"
