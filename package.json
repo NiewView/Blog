@@ -13,5 +13,11 @@
     "name": "Tom Eckardt",
     "url": "https://tomeckardt.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "copyfiles assets/** build/assets"
+  },
+  "dependencies": {
+    "copyfiles": "^2.4.0"
+  }
 }
